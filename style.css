@@ -1,0 +1,116 @@
+/* style.css */
+
+body {
+    /*text-align: center; */
+    background-image: url('LAVA1.png');
+    max-width: 1000px;
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    padding: 0;
+    background-color: #000000; /* Dark background color */
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #4d4d4d; /* Darker border at the bottom */
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    background-color: #0c0c0c;
+    height: 1150px;
+}
+
+aside {
+    width: 200px; /* Set a fixed width for the sidebar */
+    max-height: 200px; /* Optionally set a maximum height */
+    overflow-y: auto; /* Add a scrollbar if the content exceeds the height */
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #333; /* Dark background color for the sidebar */
+    border: 1px solid #ffa500; /* Darker border on the right */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list1 {
+    margin-bottom: 2px;
+}
+
+.list2 {
+    margin-bottom: 2px;
+}
+
+.bold-term {
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+li.active a {
+    background-color: #ffa500; /* Orange background for active link */
+    color: #fff;
+    border-radius: 5px;
+}
+
+section {
+    flex: 1;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    color: #ffa500; /* Orange color for titles */
+}
+
+p {
+    line-height: 1.6;
+}
+
+form {
+    margin-top: 20px;
+    background-color: #4d4d4d; /* Darker background for the form */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    width: 70%;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #ffa500; /* Orange button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc7a00; /* Darker orange on hover */
+}
